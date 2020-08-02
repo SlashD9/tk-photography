@@ -1,36 +1,116 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+    width: 100vw;
+    height: auto;
+    z-index: 2;
+}
+
+li {
+    float: right;
+    border-left: 1px solid #bbb;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.logo {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: 100;
+    font-family: 'Kaushan Script', cursive;
+}
+.dropbtn {
+    display: none;
+}
+.dropdown {
+    display: none;
+}
+
+@media only screen and (max-width: 780px) {
     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
+        width: 100vw;
     }
-    
     li {
-        float: right;
-        border-left: 1px solid #bbb;
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 1.5rem;
+        float: none;
+        font-size: 1.3rem;
     }
-    
-    li:last-child {
-        border-right: none;
-    }
-    
-    li a {
-        display: block;
+    a {
         color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
     }
-    
-    li a:hover:not(.active) {
-        background-color: #4CAF50;
-    }
-    
     .logo {
-        font-size: 1.5rem;
-        font-weight: 100;
-        font-family: 'Kaushan Script', cursive;
+        width: 100%;
+        padding-left: 3.5rem;
+        text-align: center;
+        margin: auto;
     }
+    .menu {
+        display: none;
+    }
+    .dropbtn {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        text-align: center;
+        display: block;
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+        font-size: 3px;
+        width: 3rem;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .dropdown {
+        text-align: center;
+        height: 100%;
+        margin: auto;
+        position: absolute;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        overflow: scroll;
+    }
+
+    .dropdown-content a{
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:active {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}

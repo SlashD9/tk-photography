@@ -1,11 +1,12 @@
 export interface User {
     firstName: string,
     lastName: string,
+    companyName: string,
     email?: string,
     phoneNumber?: number,
     title?: string,
     about?: string,
-    image: {
+    image?: {
         profileImage?: string,
         image1?: string,
         image2?: string,

@@ -14,6 +14,7 @@ export class ProfileComponent implements OnInit {
     this.user = {
       firstName: 'Tom',
       lastName:  'Kearney',
+      companyName: 'tkphotography',
       email: 'tkphoto@gmail.com',
       phoneNumber: 5555555,
       title: 'Photographer',

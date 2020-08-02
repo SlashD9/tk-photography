@@ -10,3 +10,11 @@ body {
 p {
     font-family: Lato;
 }
+
+.main {
+    width: 100vw;
+}
+
+.navbar {
+    overflow: auto;
+}

@@ -1,15 +1,18 @@
 <div class="profile">
-    <div class="imageContainer">
-        <div class="profileImage">
-            <img [src]='user.image.profileImage'>
+    <div class="profileBox">
+        <div class="imageContainer">
+            <div class="profileImage">
+                <img [src]='user.image.profileImage'>
+            </div>
+            <div class="profileName">
+                <h1>{{ user.firstName }} {{ user.lastName }}</h1>
+                <h1>{{ user.title }}</h1>
+            </div>
         </div>
-        <div class=" profileName ">
-            <h1>{{ user.firstName }} {{ user.lastName }}</h1>
-            <h1>{{ user.title }}</h1>
+        <div class="profileAbout">
+            <h2>About</h2>
+            <p>{{ user.about }}</p>
         </div>
-    </div>
-    <div class="profileAbout ">
-        <h2>About</h2>
-        <p>{{ user.about }}</p>
+
     </div>
 </div>

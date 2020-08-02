@@ -1,11 +1,33 @@
 <ul>
-    <li style='float: left;'>
+    <div class="dropdown">
+        <button class="dropbtn"><hr><hr><hr></button>
+        <div class="dropdown-content">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">PROFILE</a>
+                </li>
+                <li>
+                    <a href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <li style='float: left; border: none;'>
         <a href='#'>
-            <h3 class='logo'>TK Photography</h3>
+            <h3 class='logo'>{{ user.companyName }}</h3>
         </a>
     </li>
-    <li><a href="#">CONTACT</a></li>
-    <li><a href="#">PORTFOLIO</a></li>
-    <li><a href="#">PROFILE</a></li>
-    <li><a href="#">HOME</a></li>
+    <li class='menu'><a href="#">CONTACT</a></li>
+    <li class='menu'><a href="#">PORTFOLIO</a></li>
+    <li class='menu'><a href="#">PROFILE</a></li>
+    <li class='menu'><a href="#">HOME</a></li>        
 </ul>
+
+
+

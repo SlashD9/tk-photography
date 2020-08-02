@@ -12,18 +12,15 @@
 
 }
 
-
 .contact-card-item {
     width: 100%;
     font-size: 1.5rem;
     margin-top: 2rem;
-
 }
 
 label {
     text-align: left;
     color: white;
-    text-align: center;
     padding-right: 3rem;
 }
 
@@ -42,4 +39,18 @@ button {
     font-size: 2rem;
     color: white;
     background-color: #264653;
+}
+@media only screen and (max-width: 780px) {
+    .contact-card {
+        width: 100%;
+    }
+    label {
+        text-align: center;
+    }
+    input {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
 }

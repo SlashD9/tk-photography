@@ -3,12 +3,13 @@
 body html {
     margin: -8px;
     padding: 0px;
+    width: 100%;
 }
 
 body {
     background-color: #f4a261;
-    width: 100vw;
     height: auto;
+    width: 100%;
 }
 
 h2 {

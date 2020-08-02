@@ -12,7 +12,8 @@
 .card-item {
     background-color: #e76f51;
     padding: 20px;
-    marging: 30px;
+    margin: 10px;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.8);
 }
 
 img {

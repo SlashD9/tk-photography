@@ -1,19 +1,19 @@
 <ul>
     <div class="dropdown">
-        <button class="dropbtn"><hr><hr><hr></button>
-        <div class="dropdown-content">
+        <button class="dropbtn" (click)="toggleMenu()"><hr><hr><hr></button>
+        <div class="dropdown-content" *ngIf="menuShow">
             <ul>
                 <li>
-                    <a routerLink="/" [routerLinkActive]="['active']">HOME</a>
+                    <a (click)="turnMenuOff()" routerLink="/" [routerLinkActive]="['active']" >HOME</a>
                 </li>
                 <li>
-                    <a routerLink="/profile" [routerLinkActive]="['active']">PROFILE</a>
+                    <a (click)="turnMenuOff()" routerLink="/profile" [routerLinkActive]="['active']">PROFILE</a>
                 </li>
                 <li>
-                    <a routerLink="/portfolio" [routerLinkActive]="['active']">PORTFOLIO</a>
+                    <a (click)="turnMenuOff()" routerLink="/portfolio" [routerLinkActive]="['active']">PORTFOLIO</a>
                 </li>
                 <li>
-                    <a outerLink="/contact" [routerLinkActive]="['active']">CONTACT</a>
+                    <a (click)="turnMenuOff()" routerLink="/contact" [routerLinkActive]="['active']">CONTACT</a>
                 </li>
             </ul>
         </div>

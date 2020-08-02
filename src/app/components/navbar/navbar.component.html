@@ -4,29 +4,29 @@
         <div class="dropdown-content">
             <ul>
                 <li>
-                    <a href="#">HOME</a>
+                    <a routerLink="/" routerLinkActive="active">HOME</a>
                 </li>
                 <li>
-                    <a href="#">PROFILE</a>
+                    <a routerLink="/profile" routerLinkActive="active">PROFILE</a>
                 </li>
                 <li>
-                    <a href="#">PORTFOLIO</a>
+                    <a routerLink="/portfolio" routerLinkActive="active">PORTFOLIO</a>
                 </li>
                 <li>
-                    <a href="#">CONTACT</a>
+                    <a routerLink="/contact" routerLinkActive="active">CONTACT</a>
                 </li>
             </ul>
         </div>
     </div>
     <li style='float: left; border: none;'>
-        <a href='#'>
+        <a routerLink="/home" routerLinkActive="active">
             <h3 class='logo'>{{ user.companyName }}</h3>
         </a>
     </li>
-    <li class='menu'><a href="#">CONTACT</a></li>
-    <li class='menu'><a href="#">PORTFOLIO</a></li>
-    <li class='menu'><a href="#">PROFILE</a></li>
-    <li class='menu'><a href="#">HOME</a></li>        
+    <li class='menu'><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+    <li class='menu'><a routerLink="/portfolio" routerLinkActive="active">PORTFOLIO</a></li>
+    <li class='menu'><a routerLink="/profile" routerLinkActive="active">PROFILE</a></li>
+    <li class='menu'><a routerLink="/home" routerLinkActive="active">HOME</a></li>        
 </ul>
 
 

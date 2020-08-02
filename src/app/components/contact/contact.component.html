@@ -1,2 +1,27 @@
-<p>contact works!</p>
+<div class="contact-card">
+    <div class="card-item">
+        <form action="">
+            <div class="contact-card-item">
+                <label for="">Name</label>
+                <input type="text">
+            </div>
+            <div class="contact-card-item">
+                <label for="">Email</label>
+                <input type="email">
+            </div>
+            <div class="contact-card-item">
+                <label for="">Phone</label>
+                <input type="number">
+            </div>
+            <div class="contact-card-item">
+                <label for="">Message</label>
+                <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+            <div>
+                <button (click)="alertForm()">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
 <router-outlet></router-outlet>

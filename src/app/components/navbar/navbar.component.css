@@ -51,6 +51,15 @@ li a:hover:not(.active) {
     font-family: 'Kaushan Script', cursive;
 }
 
+.logo a:active {
+    background-color: none;
+    border-bottom: none;
+}
+.logo a:hover {
+    background-color: none;
+    border-bottom: none;
+}
+
 .hide {
     display: none;
 }

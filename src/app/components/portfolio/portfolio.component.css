@@ -42,6 +42,6 @@ img {
     }
 
     .zoom {
-        transition: transform .2s; /* Animation */
+        transition: transform none; /* Animation */
       }
 }

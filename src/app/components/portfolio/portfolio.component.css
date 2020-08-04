@@ -40,4 +40,8 @@ img {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
     }
+
+    .zoom {
+        transition: transform .2s; /* Animation */
+      }
 }

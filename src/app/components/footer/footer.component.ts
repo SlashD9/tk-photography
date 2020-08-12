@@ -13,8 +13,8 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
     this.user = {
       firstName: 'Tyler',
-      lastName: 'Durken',
-      companyName: 'TD Photography'
+      lastName: 'Kavanagh',
+      companyName: 'TK Photography'
     }
   }
 

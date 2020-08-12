@@ -15,8 +15,8 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
     this.users = {
       firstName: 'Tyler',
-      lastName: 'Durken',
-      companyName: 'TD Photography',
+      lastName: 'Kavanagh',
+      companyName: 'TK Photography',
       image: {
         image1: 'https://lorempixel.com/600/400/nature/1',
         image2: 'https://lorempixel.com/600/400/nature/2',

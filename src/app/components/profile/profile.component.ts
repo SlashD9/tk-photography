@@ -13,8 +13,8 @@ export class ProfileComponent implements OnInit {
     
     this.user = {
       firstName: 'Tyler',
-      lastName:  'Durken',
-      companyName: 'TD Photography',
+      lastName:  'Kavanagh',
+      companyName: 'TK Photography',
       email: 'tkphoto@gmail.com',
       phoneNumber: 5555555,
       title: 'Photographer',

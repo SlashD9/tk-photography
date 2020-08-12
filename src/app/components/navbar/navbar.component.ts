@@ -17,8 +17,8 @@ export class NavbarComponent implements OnInit {
 
     this.user = {
       firstName: 'Tyler',
-      lastName: 'Durken',
-      companyName: 'TD Photography'
+      lastName: 'Kavanagh',
+      companyName: 'TK Photography'
     }
   }
 

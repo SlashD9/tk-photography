@@ -8,6 +8,7 @@ import { User } from '../../models/User';
 })
 export class FooterComponent implements OnInit {
   user: User;
+  thisYear: number;
   constructor() { }
 
   ngOnInit(): void {
@@ -16,6 +17,7 @@ export class FooterComponent implements OnInit {
       lastName: 'Kavanagh',
       companyName: 'TK Photography'
     }
+    this.thisYear = new Date().getFullYear();
   }
 
 }

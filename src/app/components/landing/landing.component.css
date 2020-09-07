@@ -1,8 +1,8 @@
 .imageContainer {
     width: fit-content(2em);
-    height: 60em;
+    height: 80vh;
     text-align: center;
-    background-image: url('https://lorempixel.com/1920/1080/nature/4');
+    background-image: url('https://lorempixel.com/1920/900/nature/2');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 780px) {
     .imageContainer {
-        width: 100vw;
+        width: 90vw;
         height: 50vh;
         position: absolute;
         top: 5rem;
